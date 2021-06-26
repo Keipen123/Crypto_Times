@@ -1,3 +1,273 @@
-.container{
-    
+ * {
+    margin: 0;
+    padding: 0;
 }
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    grid-auto-flow: row;
+}
+
+img{
+height: auto;
+max-height: 10vh;
+width: auto;
+justify-items: center;
+align-items: center;
+margin-top: 20px;
+}
+
+.Huobi{
+    grid-column: 2 / 4;
+    grid-row: 1 / 5;
+}
+
+.Bithumb{
+    grid-column: 3 / 4;
+    grid-row: 1 / 5;
+}
+
+.Coinbase{
+    grid-column: 2 / 4;
+    grid-row: 2 / 5;
+}
+
+.Cosmos{
+    grid-column: 3 / 4;
+    grid-row: 2 / 5;
+}
+
+.Binance{
+    grid-column: 2 / 4;
+    grid-row: 3 / 5;
+}
+
+.Etherum{
+    grid-column: 3 / 4;
+    grid-row: 3 / 5;
+}
+
+.Kusama{
+    grid-column: 2 / 4;
+    grid-row: 4 / 5;
+}
+
+.Solana{
+    grid-column:  3 / 4;
+    grid-row: 4 / 5;
+}
+
+.SymbolNem{
+    grid-column: 2 / 4;
+    grid-row: 5 / 5;
+}
+
+.Polkadot{
+    grid-column: 3 / 4;
+    grid-row: 5 / 5;
+}
+
+@media only screen and (max-width: 550px) {
+    .container {
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(10, 1fr);
+      justify-items: center;
+      align-items: center;
+    }
+
+    img{
+        width: 80%;
+        height: auto;
+        justify-self: center;
+        align-self: center;
+    }
+
+    .Huobi{
+        grid-row: 1;
+    }
+    
+    .Bithumb{
+        grid-row: 2;
+    }
+    
+    .Coinbase{
+        grid-row: 3;
+    }
+    
+    .Cosmos{
+        grid-row: 4;
+    }
+    
+    .Binance{
+        grid-row: 5;
+    }
+    
+    .Etherum{
+        grid-row: 6;
+    }
+    
+    .Kusama{
+        grid-row: 7;
+    }
+    
+    .Solana{
+        grid-row: 8;
+    }
+    
+    .SymbolNem{
+        grid-row: 9;
+    }
+    
+    .Polkadot{
+        grid-row: 10;
+    }
+  }
+
+  @media only screen and (max-width: 550px) {
+    .container {
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(10, 1fr);
+      justify-items: center;
+      align-items: center;
+      margin: 50px;
+    }
+
+    div{
+        width: 100%;
+        height: auto;
+        justify-self: center;
+        align-self: center;
+        padding-bottom: 20px;
+    }
+
+    .Huobi{
+        grid-row: 1;
+        justify-items: center;
+    }
+    
+    .Bithumb{
+        grid-row: 2;
+        justify-items: center;
+    }
+    
+    .Coinbase{
+        grid-row: 3;
+        justify-items: center;
+    }
+    
+    .Cosmos{
+        grid-row: 4;
+        justify-items: center;
+    }
+    
+    .Binance{
+        grid-row: 5;
+        justify-items: center;
+    }
+    
+    .Etherum{
+        grid-row: 6;
+        justify-items: center;
+    }
+    
+    .Kusama{
+        grid-row: 7;
+        justify-items: center;
+    }
+    
+    .Solana{
+        grid-row: 8;
+        justify-items: center;
+    }
+    
+    .SymbolNem{
+        grid-row: 9;
+        justify-self: center;
+    }
+    
+    .Polkadot{
+        grid-row: 10;
+        justify-self: center;
+    }
+  }
+
+  @media only screen and (min-width:600px) and (max-width:1024px) {
+    .container{
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(10, 1fr);
+        grid-column-gap: 50px;
+        grid-row-gap: 20px;
+    }
+    
+    img{
+    height: auto;
+    max-height: 5vh;
+    width: auto;
+    /* justify-content: center;
+    align-content: center; */
+    }
+    
+    .Huobi{
+        grid-column: 3 / 4;
+        grid-row: 1 / 5;
+        justify-self: center;
+    }
+    
+    .Bithumb{
+        grid-column: 4 / 4;
+        grid-row: 1 / 5;
+        justify-self: center;
+
+    }
+    
+    .Coinbase{
+        grid-column: 3 / 4;
+        grid-row: 2 / 5;
+        justify-self: center;
+    }
+    
+    .Cosmos{
+        grid-column: 4 / 4;
+        grid-row: 2 / 5;
+        justify-self: center;
+    }
+    
+    .Binance{
+        grid-column: 3 / 4;
+        grid-row: 3 / 5;
+        justify-self: center;
+    }
+    
+    .Etherum{
+        grid-column: 4 / 4;
+        grid-row: 3 / 5;
+        justify-self: center;
+    }
+    
+    .Kusama{
+        grid-column: 3 / 4;
+        grid-row: 4 / 5;
+        justify-self: center;
+    }
+    
+    .Solana{
+        grid-column:  4 / 4;
+        grid-row: 4 / 5;
+        justify-self: center;
+    }
+    
+    .SymbolNem{
+        grid-column: 3 / 4;
+        grid-row: 5 / 5;
+        justify-self: center;
+    }
+    
+    .Polkadot{
+        grid-column: 4 / 4;
+        grid-row: 5 / 5;
+        justify-self: center;
+    }    
+  }
