@@ -1,4 +1,130 @@
- * {
+
+ 
+ .container{
+     display: flex;
+     flex: auto;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: space-evenly;
+ }
+
+ img{
+     max-width: 100%;
+     height: auto;
+ }
+
+ .Huobi{
+flex: 0 1 22%;
+
+}
+
+.Bithumb{
+flex: 0 1 22%;
+
+}
+
+.Coinbase{
+flex: 0 1 22%;
+
+}
+
+.Cosmos{
+flex: 0 1 22%;
+}
+
+.Binance{
+flex: 0 1 22%;
+}
+
+.Etherum{
+flex: 0 1 15%;
+}
+
+.Kusama{
+flex: 0 1 22%;
+margin-top: 15px;
+}
+
+.Solana{
+ flex: 0 1 30%;
+ margin: 15px;
+}
+
+.SymbolNem{
+flex: 0 1 22%;
+
+}
+
+.Polkadot{
+flex: 0 1 22%;
+
+}
+
+@media only screen and (max-width: 550px) {
+    .container{
+        display: flex;
+        flex: auto;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+   
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+
+    .Huobi{
+   flex: 0 80%;
+   margin-bottom: 15px;
+   }
+   
+   .Bithumb{
+   flex: 0 1 80%;
+   
+   }
+   
+   .Coinbase{
+   flex: 0 1 80%;
+   
+   }
+   
+   .Cosmos{
+   flex: 0 1 80%;
+   
+   }
+   
+   .Binance{
+   flex: 0 1 80%;
+   
+   }
+   
+   .Etherum{
+   flex: 0 1 60%;
+   }
+   
+   .Kusama{
+   flex: 0 1 80%;
+   
+   }
+   
+   .Solana{
+    flex: 0 1 80%;
+    
+   }
+   
+   .SymbolNem{
+   flex: 0 1 80%;
+   
+   }
+   
+   .Polkadot{
+   flex: 0 1 80%;
+   
+   }
+}
+ 
+ /* * {
     margin: 0;
     padding: 0;
 }
@@ -206,8 +332,6 @@ margin-top: 20px;
     height: auto;
     max-height: 5vh;
     width: auto;
-    /* justify-content: center;
-    align-content: center; */
     }
     
     .Huobi{
@@ -270,4 +394,4 @@ margin-top: 20px;
         grid-row: 5 / 5;
         justify-self: center;
     }    
-  }
+  } */
