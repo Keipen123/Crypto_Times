@@ -42,12 +42,12 @@ flex: 0 1 15%;
 
 .Kusama{
 flex: 0 1 22%;
-margin-top: 15px;
+
 }
 
 .Solana{
  flex: 0 1 30%;
- margin: 15px;
+ 
 }
 
 .SymbolNem{
@@ -75,7 +75,7 @@ flex: 0 1 22%;
     }
 
     .Huobi{
-   flex: 0 80%;
+   flex: 0 70%;
    margin-bottom: 15px;
    }
    
@@ -100,21 +100,21 @@ flex: 0 1 22%;
    }
    
    .Etherum{
-   flex: 0 1 60%;
+   flex: 0 1 55%;
    }
    
    .Kusama{
    flex: 0 1 80%;
-   
+   margin-top: 15px;
    }
    
    .Solana{
-    flex: 0 1 80%;
-    
+    flex: 0 1 90%;
+    margin: 15px;
    }
    
    .SymbolNem{
-   flex: 0 1 80%;
+   flex: 0 1 75%;
    
    }
    
